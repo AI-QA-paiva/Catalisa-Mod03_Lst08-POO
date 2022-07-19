@@ -53,6 +53,7 @@ public class Prato {
 
             if (listaPratos.get(i).getNomePrato().equals(excluindo)) {
                 listaPratos.remove(i);
+                System.out.println("Prato removido do cardápio!");
             }
 
         }
